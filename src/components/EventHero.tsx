@@ -1,6 +1,5 @@
-
 import React, { useEffect, useState } from 'react';
-import { Calendar, Clock, MapPin } from "lucide-react";
+import { Calendar, Clock, MapPin, Tag } from "lucide-react";
 
 const EventHero = () => {
   const [loaded, setLoaded] = useState(false);
@@ -38,7 +37,7 @@ const EventHero = () => {
             Join this informative session to learn about land title documentation and processes in Nigeria.
           </p>
           
-          <div className={`flex flex-col md:flex-row justify-center gap-6 mb-12 transition-all duration-700 delay-300 ${loaded ? 'opacity-100' : 'opacity-0 translate-y-8'}`}>
+          <div className={`flex flex-col md:flex-row justify-center gap-6 mb-8 transition-all duration-700 delay-300 ${loaded ? 'opacity-100' : 'opacity-0 translate-y-8'}`}>
             <div className="flex items-center gap-2">
               <Calendar className="w-5 h-5 text-event-purple" />
               <span>26th April 2025</span>
@@ -50,6 +49,18 @@ const EventHero = () => {
             <div className="flex items-center gap-2">
               <MapPin className="w-5 h-5 text-event-purple" />
               <span>Virtual Event</span>
+            </div>
+          </div>
+          
+          <div className={`inline-block px-6 py-4 bg-white/10 backdrop-blur-md rounded-2xl mb-8 transition-all duration-700 delay-350 ${loaded ? 'opacity-100' : 'opacity-0 translate-y-8'}`}>
+            <div className="flex items-center justify-center gap-3 mb-1">
+              <Tag className="w-4 h-4 text-event-purple" />
+              <span className="text-sm font-medium text-event-purple">Special Offer</span>
+            </div>
+            <div className="flex items-center justify-center">
+              <span className="text-lg line-through text-gray-400 mr-2">$60</span>
+              <span className="text-2xl font-bold text-white">$30</span>
+              <span className="text-sm text-gray-300 ml-2">≈ ₦45,000</span>
             </div>
           </div>
           

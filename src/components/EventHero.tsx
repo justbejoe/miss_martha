@@ -30,7 +30,7 @@ const EventHero = () => {
           </div>
           
           <h1 className={`font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 transition-all duration-700 delay-100 ${loaded ? 'opacity-100' : 'opacity-0 translate-y-8'}`}>
-            Understanding <span className="text-event-purple">Land Titles</span> in Nigeria
+            Understanding <span className="text-event-white">Land Titles</span> in Nigeria
           </h1>
           
           <p className={`text-lg md:text-xl text-gray-200 mb-10 max-w-2xl mx-auto transition-all duration-700 delay-200 ${loaded ? 'opacity-100' : 'opacity-0 translate-y-8'}`}>

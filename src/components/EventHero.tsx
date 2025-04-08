@@ -24,7 +24,7 @@ const EventHero = () => {
       <div className="relative z-20 container mx-auto px-6 h-full flex flex-col justify-center items-center text-white">
         <div className="max-w-3xl text-center">
           <div className={`transition-all duration-700 ${loaded ? 'opacity-100' : 'opacity-0 translate-y-8'}`}>
-            <span className="inline-block py-1 px-3 rounded-full bg-event-purple/20 text-event-purple backdrop-blur-sm text-sm font-medium mb-6">
+            <span className="inline-block py-1 px-3 rounded-full bg-event-purple/20 text-event-white backdrop-blur-sm text-sm font-medium mb-6">
               Educational Event
             </span>
           </div>

@@ -40,7 +40,7 @@ const EventHero = () => {
           <div className={`flex flex-col md:flex-row justify-center gap-6 mb-8 transition-all duration-700 delay-300 ${loaded ? 'opacity-100' : 'opacity-0 translate-y-8'}`}>
             <div className="flex items-center gap-2">
               <Calendar className="w-5 h-5 text-event-purple" />
-              <span>26th April 2025</span>
+              <span>3rd May 2025</span>
             </div>
             <div className="flex items-center gap-2">
               <Clock className="w-5 h-5 text-event-purple" />
